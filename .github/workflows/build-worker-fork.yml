@@ -6,7 +6,7 @@ name: Build Worker Image (fork)
 
 on:
   push:
-    branches: ["fix/worker-playwright-global-timeout"]
+    branches: ["main"]
     paths:
       - "worker/**"
       - ".github/workflows/build-worker-fork.yml"
